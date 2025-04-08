@@ -40,25 +40,25 @@ const CartSummary = () => {
       <div className="space-y-3 mb-6">
         <div className="flex justify-between">
           <span className="text-muted-foreground">Subtotal ({totalItems} items)</span>
-          <span>${subtotal.toFixed(2)}</span>
+          <span>₹{subtotal.toFixed(2)}</span>
         </div>
         <div className="flex justify-between">
           <span className="text-muted-foreground">Shipping</span>
-          <span>{shipping === 0 ? "Free" : `$${shipping.toFixed(2)}`}</span>
+          <span>{shipping === 0 ? "Free" : `₹${shipping.toFixed(2)}`}</span>
         </div>
         <div className="flex justify-between">
           <span className="text-muted-foreground">Tax (8%)</span>
-          <span>${tax.toFixed(2)}</span>
+          <span>₹{tax.toFixed(2)}</span>
         </div>
         <div className="border-t pt-3 mt-3 flex justify-between font-semibold">
           <span>Total</span>
-          <span>${total.toFixed(2)}</span>
+          <span>₹{total.toFixed(2)}</span>
         </div>
       </div>
       
       {shipping > 0 && (
         <p className="text-sm text-muted-foreground mb-4">
-          Add ${(50 - subtotal).toFixed(2)} more to qualify for free shipping
+          Add ₹{(50 - subtotal).toFixed(2)} more to qualify for free shipping
         </p>
       )}
       

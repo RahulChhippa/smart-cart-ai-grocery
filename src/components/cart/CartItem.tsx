@@ -47,7 +47,7 @@ const CartItem = ({ item }: CartItemProps) => {
           {item.name}
         </Link>
         <p className="text-sm text-muted-foreground">
-          ${item.price.toFixed(2)} each
+          ₹{item.price.toFixed(2)} each
         </p>
       </div>
       
@@ -81,7 +81,7 @@ const CartItem = ({ item }: CartItemProps) => {
         </div>
         
         <div className="w-20 text-right font-medium">
-          ${(item.price * item.quantity).toFixed(2)}
+          ₹{(item.price * item.quantity).toFixed(2)}
         </div>
         
         <Button 

@@ -43,7 +43,7 @@ const ProductCard = ({ product, className }: ProductCardProps) => {
         </div>
       </CardContent>
       <CardFooter className="p-4 pt-0 flex items-center justify-between">
-        <p className="font-semibold">${product.price.toFixed(2)}</p>
+        <p className="font-semibold">₹{product.price.toFixed(2)}</p>
         <Button 
           variant="outline"
           size="sm"

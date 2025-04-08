@@ -61,7 +61,7 @@ const AIRecommendationCard = () => {
                 className="w-full aspect-square object-cover rounded-md mb-2"
               />
               <h3 className="font-medium text-sm">{product.name}</h3>
-              <p className="text-sm text-muted-foreground">${product.price.toFixed(2)}</p>
+              <p className="text-sm text-muted-foreground">₹{product.price.toFixed(2)}</p>
             </div>
           ))}
         </div>

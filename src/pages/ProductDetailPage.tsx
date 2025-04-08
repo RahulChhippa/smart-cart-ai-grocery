@@ -82,7 +82,7 @@ const ProductDetailPage = () => {
                   </span>
                 )}
               </div>
-              <p className="text-2xl font-bold text-grocery-primary">${product.price.toFixed(2)}</p>
+              <p className="text-2xl font-bold text-grocery-primary">₹{product.price.toFixed(2)}</p>
               <p className="text-muted-foreground mt-2">{product.description}</p>
             </div>
 
