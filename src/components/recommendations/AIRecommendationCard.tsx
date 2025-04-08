@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Sparkles, RefreshCw } from "lucide-react";
-import { ProductList } from "@/components/products/ProductList";
+import ProductList from "@/components/products/ProductList";
 import { getRecommendedProducts } from "@/data/products";
 
 const AIRecommendationCard = () => {
