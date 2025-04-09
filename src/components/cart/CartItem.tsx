@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { useCart } from "@/context/CartContext";
-import { Product } from "@/data/products";
+import { Product } from "@/data/types";
 import { Button } from "@/components/ui/button";
 import { Trash } from "lucide-react";
 import { Link } from "react-router-dom";

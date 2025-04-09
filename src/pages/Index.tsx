@@ -1,11 +1,10 @@
-
 import { useState } from "react";
 import Layout from "@/components/layout/Layout";
 import Hero from "@/components/home/Hero";
 import Features from "@/components/home/Features";
 import ProductList from "@/components/products/ProductList";
 import AIRecommendationCard from "@/components/recommendations/AIRecommendationCard";
-import { getRecommendedProducts } from "@/data/products";
+import { getRecommendedProducts } from "@/data/productUtils";
 
 const Index = () => {
   const [searchTerm, setSearchTerm] = useState("");
