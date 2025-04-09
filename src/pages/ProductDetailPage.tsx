@@ -5,7 +5,7 @@ import { useCart } from "@/context/CartContext";
 import Layout from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { Leaf, ShoppingCart, ArrowLeft } from "lucide-react";
-import { getProductById, Product } from "@/data/products";
+import { getProductById, Product } from "@/data";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const ProductDetailPage = () => {

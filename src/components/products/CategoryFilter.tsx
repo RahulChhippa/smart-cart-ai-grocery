@@ -1,6 +1,6 @@
 
 import { cn } from "@/lib/utils";
-import { categories } from "@/data/products";
+import { categories } from "@/data/categories";
 import { Button } from "@/components/ui/button";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import { Apple, Beef, Carrot, Droplet, Fish, Flame, Leaf, Milk, ShoppingBasket, Wheat } from "lucide-react";

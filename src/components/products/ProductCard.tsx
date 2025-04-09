@@ -1,5 +1,5 @@
 
-import { Product } from "@/data/products";
+import { Product } from "@/data/types";
 import { useCart } from "@/context/CartContext";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";

@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Sparkles, RefreshCw } from "lucide-react";
 import ProductList from "@/components/products/ProductList";
-import { getRecommendedProducts } from "@/data/products";
+import { getRecommendedProducts } from "@/data/productUtils";
 
 const AIRecommendationCard = () => {
   const [isLoading, setIsLoading] = useState(false);

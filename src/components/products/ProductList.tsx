@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import { Product } from "@/data/products";
+import { Product } from "@/data/types";
 import ProductCard from "./ProductCard";
 
 interface ProductListProps {

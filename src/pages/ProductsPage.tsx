@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Layout from "@/components/layout/Layout";
 import ProductList from "@/components/products/ProductList";
 import CategoryFilter from "@/components/products/CategoryFilter";
-import { getProductsByCategory, Product } from "@/data/products";
+import { getProductsByCategory, Product } from "@/data";
 
 const ProductsPage = () => {
   const [activeCategory, setActiveCategory] = useState("All");
