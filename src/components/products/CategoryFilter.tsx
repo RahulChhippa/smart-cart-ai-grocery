@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 import { categories } from "@/data/products";
 import { Button } from "@/components/ui/button";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
-import { Apple, Beef, Carrot, Fish, Milk, ShoppingBasket, Wheat } from "lucide-react";
+import { Apple, Beef, Carrot, Droplet, Fish, Flame, Leaf, Milk, ShoppingBasket, Wheat } from "lucide-react";
 
 interface CategoryFilterProps {
   activeCategory: string;
@@ -20,6 +20,9 @@ const getCategoryIcon = (iconName: string, className = "h-4 w-4 mr-2") => {
     case "Wheat": return <Wheat className={className} />;
     case "Beef": return <Beef className={className} />;
     case "Fish": return <Fish className={className} />;
+    case "Leaf": return <Leaf className={className} />;
+    case "Flame": return <Flame className={className} />;
+    case "Droplet": return <Droplet className={className} />;
     case "ShoppingBasket": return <ShoppingBasket className={className} />;
     default: return <ShoppingBasket className={className} />;
   }
