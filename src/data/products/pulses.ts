@@ -24,7 +24,7 @@ export const pulsesProducts: Product[] = [
     name: "Organic Green Moong Dal",
     category: "Pulses",
     price: 130.99,
-    image: "https://images.unsplash.com/photo-1612257999756-9ce15e0eb360?q=80&w=1964&auto=format&fit=crop",
+    image: "/lovable-uploads/20de8160-85ed-4916-b77b-f438ad70fcf1.png",
     description: "Organic green moong dal, rich in protein and essential minerals.",
     nutritionalInfo: {
       calories: 347,
